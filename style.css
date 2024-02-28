@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(black.avif);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(black.avif);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;  
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
